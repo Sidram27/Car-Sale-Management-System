@@ -1,0 +1,9 @@
+***************************** This Project build by Abhijeet Kulkarni **************************************
+
+- Install the Requirements: pip install -r requirements.txt
+- Create a PostgreSQL database named "cardealer_db"
+- Configure PostgreSQL Database credentials under settings.py
+- Then, make database migrations: python manage.py makemigrations
+- python manage.py migrate
+- And finally, run the application: python manage.py runserver
+
